@@ -1,0 +1,3 @@
+OS 2020 1
+Assignments of Week 01: done!
+All bash scripts have been tried.
