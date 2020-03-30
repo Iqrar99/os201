@@ -1,5 +1,4 @@
 # Welcome!
-# Iqrar Agalosi Nureyza | 1806204902
 ______
 
 ## os201
