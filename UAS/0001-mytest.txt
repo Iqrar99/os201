@@ -1,0 +1,26 @@
+$ echo $GitHubUser
+iqrar99
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200601-125505-e0e5-iqrar99/>
+$ PS1="\$(eval \$PSTAMP)"
+200601-125513-a08f-iqrar99/> date
+Mon Jun  1 12:55:19 +07 2020
+200601-125519-8dad-iqrar99/> gpg --list-keys
+/home/iqrar99/.gnupg/pubring.kbx
+--------------------------------
+pub   rsa4096 2020-05-28 [SC]
+      778EAF9609E291F471F621A13B9996ABF76EEAD0
+uid           [ultimate] Iqrar Agalosi Nureyza <misteriqrar@gmail.com>
+sub   rsa4096 2020-05-28 [E]
+
+pub   rsa4096 2020-02-13 [SC] [expires: 2021-02-12]
+      B4507B533F7F22840BD8E93ED0F5DBDD67DF6DDE
+uid           [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   rsa4096 2020-02-13 [E] [expires: 2021-02-12]
+
+200601-125529-a769-iqrar99/> exit
+exit
+
+Script done on 2020-06-01 12:55:36+0700
