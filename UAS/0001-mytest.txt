@@ -1,3 +1,4 @@
+Script started on 2020-06-01 12:54:25+0700
 $ echo $GitHubUser
 iqrar99
 $ echo $PSTAMP
