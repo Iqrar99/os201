@@ -1,0 +1,37 @@
+Script started on 2020-06-08 21:47:06+0700
+iqrar99@LAPTOP-JRA8RP28:~$ PS1="$ "
+$ echo $GitHubUser
+iqrar99
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200608-214719-95c4-iqrar99/>
+$ PS1="\$(eval \$PSTAMP)"
+200608-214739-1f0a-iqrar99/> echo -e $CEKSAYA
+iqrar99 ZCZCSCRIPTSTART 200601-125425 iqrar99
+ iqrar99 iqrar99 200601-125505-e0e5/ 200601-125505 SEQOK SUMOK e0e56190
+ iqrar99 iqrar99 200601-125513-a08f/ 200601-125513 SEQOK SUMOK a08fd5ab
+ iqrar99 iqrar99 200601-125519-8dad/ 200601-125519 SEQOK SUMOK 8dad06d7
+ iqrar99 iqrar99 200601-125529-a769/ 200601-125529 SEQOK SUMOK a7699551
+ iqrar99 ZCZCSCRIPTSTOP 200601-125536 SEQOK
+
+200608-214746-e1bb-iqrar99/> echo -e $CEKSEBELA1
+iqrar99 ZCZCSCRIPTSTART 200601-161906 irfanmaulananasution
+ iqrar99 irfanmaulananasution 200607-161926-f5c3-irfan.maulana81/ 200607-161926 SEQOK SUMOK f5c39477
+ iqrar99 irfanmaulananasution 200607-162213-5f40-irfan.maulana81/ 200607-162213 SEQOK SUMOK 5f40e489
+ iqrar99 irfanmaulananasution 200607-162225-1eac-irfan.maulana81/ 200607-162225 SEQOK SUMOK 1eac1df0
+ iqrar99 irfanmaulananasution 200607-162237-400d-irfan.maulana81/ 200607-162237 SEQOK SUMOK 400d30a8
+ iqrar99 ZCZCSCRIPTSTOP 200601-162304 SEQOK
+
+200608-214752-2fa5-iqrar99/> echo -e $CEKSEBELA2
+iqrar99 ZCZCSCRIPTSTART 200601-024531 jacobstmrg
+ iqrar99 jacobstmrg 200601-024604-507c-jacob.marulitua/ 200601-024604 SEQOK SUMOK 507cd954
+ iqrar99 jacobstmrg 200601-024609-6fb4-jacob.marulitua/ 200601-024609 SEQOK SUMOK 6fb4b972
+ iqrar99 jacobstmrg 200601-024824-04c8-jacob.marulitua/ 200601-024824 SEQOK SUMOK 04c8f231
+ iqrar99 jacobstmrg 200601-024836-aa76-jacob.marulitua/ 200601-024836 SEQOK SUMOK aa7634f8
+ iqrar99 ZCZCSCRIPTSTOP 200601-024931 SEQOK
+
+200608-214802-03db-iqrar99/> exit
+exit
+
+Script done on 2020-06-08 21:48:05+0700
